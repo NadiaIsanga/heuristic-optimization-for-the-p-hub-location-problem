@@ -63,12 +63,7 @@ Tabu Search performed better on smaller problems; Simulated Annealing offered mo
 ![image](https://github.com/user-attachments/assets/e1bfc516-f8db-415b-a1e6-615140b9db7d)
 
 
----
 
-## 📷 Preview
-
-*(Upload a chart comparing TNC or a visual of the optimization process)*  
-![Project Preview](https://via.placeholder.com/800x400?text=Hub+Optimization+Results)
 
 
 
