@@ -1,11 +1,11 @@
 # heuristic-optimization-for-the-p-hub-location-problem
-# 🔄 Heuristic Optimization of the Single Allocation p-Hub Location Problem (SApHLP)
+# Heuristic Optimization of the Single Allocation p-Hub Location Problem (SApHLP)
 
 This project implements and compares two powerful metaheuristic algorithms — **Simulated Annealing (SA)** and **Tabu Search (TS)** — to solve the SApHLP, a logistics network design challenge. The goal is to minimize total network cost by optimally placing hubs and allocating nodes through a single hub.
 
 
 
-## 📌 Summary
+##  Summary
 
 Solved the SApHLP for datasets with 10 to 100 nodes using Simulated Annealing and Tabu Search.  
 Explored the effect of hub count and discount factors on cost using CAB, TR, and RGP datasets.  
@@ -14,7 +14,7 @@ Tabu Search performed better on smaller problems; Simulated Annealing offered mo
 
 
 
-## 🛠️ Skills Used
+##  Skills Used
 
 - **Python (NumPy, Pandas, Matplotlib)**
 - **Heuristic Optimization**
@@ -26,7 +26,7 @@ Tabu Search performed better on smaller problems; Simulated Annealing offered mo
 
 
 
-## 🔍 Key Experiments
+##  Key Experiments
 
 - **Datasets**: CAB10, CAB20, TR40, RGP100  
 - **Hub Counts (p)**: 3, 5, 7, 10  
@@ -35,7 +35,7 @@ Tabu Search performed better on smaller problems; Simulated Annealing offered mo
 - **Performance Metric**: Total Network Cost (TNC)
 
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repo  
    `git clone https://github.com/NadiaIsanga/heuristic-p-hub-optimization.git`
@@ -48,7 +48,7 @@ Tabu Search performed better on smaller problems; Simulated Annealing offered mo
 
 
 
-## 📈 Results Overview
+## Results Overview
 
 - **Best Configurations**: CAB10 with p=3 and α=0.3 yielded lowest costs.
 - **SA vs TS**:  
