@@ -3,7 +3,7 @@
 
 This project implements and compares two powerful metaheuristic algorithms — **Simulated Annealing (SA)** and **Tabu Search (TS)** — to solve the SApHLP, a logistics network design challenge. The goal is to minimize total network cost by optimally placing hubs and allocating nodes through a single hub.
 
----
+
 
 ## 📌 Summary
 
@@ -12,7 +12,7 @@ Explored the effect of hub count and discount factors on cost using CAB, TR, and
 Found that **lower discount factors (α = 0.3)** and **fewer hubs** consistently reduced Total Network Cost (TNC).  
 Tabu Search performed better on smaller problems; Simulated Annealing offered more stable exploration.
 
----
+
 
 ## 🛠️ Skills Used
 
@@ -25,7 +25,6 @@ Tabu Search performed better on smaller problems; Simulated Annealing offered mo
 - **Parameter Tuning (Cooling schedules, hub count, α)**
 
 
----
 
 ## 🔍 Key Experiments
 
@@ -35,7 +34,6 @@ Tabu Search performed better on smaller problems; Simulated Annealing offered mo
 - **Cooling Schedules (SA)**: Geometric, Linear, Exponential  
 - **Performance Metric**: Total Network Cost (TNC)
 
----
 
 ## 🚀 How to Run
 
@@ -48,7 +46,7 @@ Tabu Search performed better on smaller problems; Simulated Annealing offered mo
 
 3. Run configurations for different datasets, hub counts, and discount factors
 
----
+
 
 ## 📈 Results Overview
 
@@ -58,7 +56,6 @@ Tabu Search performed better on smaller problems; Simulated Annealing offered mo
   - TS showed efficiency on smaller networks but needed tuning for large-scale problems (RGP100).  
 - **Scalability**: Both algorithms face challenges on large networks; hybrid models are recommended.
 
----
 
 ![image](https://github.com/user-attachments/assets/e1bfc516-f8db-415b-a1e6-615140b9db7d)
 
